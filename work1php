@@ -1,0 +1,23 @@
+<?php
+    //Первое задание
+    echo 'фаел ' . __FILE__ . ' строка ' . __LINE__;
+
+    $a='Рыба';
+    $b='человек';
+    echo "$a рыбою сыта, а $b человеком";
+
+    //второе задание
+    $variable = 1;//,'one', true, 3.14, null;
+
+    if (is_bool($variable)) {
+        echo 'is bool';
+    } else if(is_float($variable)) {
+        echo 'is float';
+    } else if(is_int($variable)) {
+        echo 'is int';
+    } else if(is_string($variable)) {
+        echo 'is string';
+    } else if(is_null($variable)) {
+        echo 'is null';
+    }
+?>
